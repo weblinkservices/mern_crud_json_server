@@ -12,7 +12,7 @@ export const getUsers= async(id)=>{
 }
 
 export const addUsers=async(user)=>{
-    return await axios.post(url,);
+    return await axios.post(url,user);
 }
 
 //edit function
